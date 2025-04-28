@@ -13,7 +13,7 @@ function App() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/lang/${language}`
+          `https://gathserver.onrender.com/lang/${language}`
         );
         setdata(response.data[0]);
         console.log(response.data[0]);
