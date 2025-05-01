@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center h-full min-h-screen w-full">
-      <div className="fixed top-0 -z-10 left-0 bg-[url('https://storage.123fakturera.se/public/wallpapers/sverige43.jpg')] bg-cover bg-center bg-fixed h-1000 w-full"></div>
+      <div className="fixed top-0 -z-10 left-0 bg-[url('https://storage.123fakturera.se/public/wallpapers/sverige43.jpg')] bg-cover bg-center bg-fixed min-h-screen w-full"></div>
       <div className="flex flex-row w-[75%] h-full">
       <div className="flex items-center justify-start h-full pt-4 w-auto">
   <a href="https://online.123fakturera.se/" className="hidden lg:block">
