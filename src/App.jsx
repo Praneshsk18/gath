@@ -18,7 +18,7 @@ function App() {
         setdata(response.data[0]);
         console.log(response.data[0]);
       } catch (e) {
-        console.log("Error fetching data:", e); // More descriptive error message
+        console.log("Error fetching data:", e);
       }
     };
     fetchData();
@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col items-center min-h-screen h-full w-full">
+    <div className="flex flex-col items-center min-h-screen h-full w-full overflow-hidden">
       <div className="flex flex-row w-[75%] h-full">
       <div className="flex items-center justify-start h-full pt-4 w-auto">
   <a href="https://online.123fakturera.se/" className="hidden lg:block">
